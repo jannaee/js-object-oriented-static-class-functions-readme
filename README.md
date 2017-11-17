@@ -22,7 +22,7 @@ class User {
   }
 }
 
-var sarah = new User('Sarah');
+let sarah = new User('Sarah');
 sarah.sayHello(); // Hello, my name is Sarah
 ```
 
