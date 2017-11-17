@@ -28,7 +28,7 @@ sarah.sayHello(); // Hello, my name is Sarah
 
 When desigining classes, we think a lot about responsibility of behavior and data. What if we wanted to be able to return all instances of a `User` that have been created? Before even thinking of how we might implement that, the first question is, what object is responsible for that? 
 
-In the example above, would it be `sarah`'s, an instance of the `User` class, responsibility to return to our system all the other instances of the `User` class? No. `sarah`, an instance, is solely responsible for behavoir related to her. 
+In the example above, would it be `sarah`'s, an instance of the `User` class, responsibility to return to our system all the other instances of the `User` class? No. `sarah`, an instance, is solely responsible for behavior related to her. 
 
 It should be the `User` classes responsibility. The desired code might look like `User.All()`, a function attached directly to the `User` class the returns all instances of a `User`.
 
